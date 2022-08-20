@@ -136,7 +136,7 @@ function checkMatch(){
 
 
 function newBlock(){
-
+    console.log(MovingItem)
     clearInterval(downInterval);
     downInterval = setInterval(()=>{
           moveBlock('top',1)
