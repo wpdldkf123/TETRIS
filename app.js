@@ -50,7 +50,7 @@ function prependNewLine(){
 }
 
 function renderBlocks(moveType = ""){
-    console.log(downSpeed)
+    console.log(moveType)
     const { type, direction, top, left } = tempMovingItem;
     const movingBlocks = document.querySelectorAll(".moving")
     movingBlocks.forEach(moving => {
